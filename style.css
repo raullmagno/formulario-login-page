@@ -12,6 +12,7 @@ main {
   height: 500px;
   margin: auto;
   margin-top: 50px;
+  flex-wrap: wrap;
 
   /* border: solid 1px; */
 }
@@ -25,4 +26,33 @@ main {
   text-align: center;
   align-content: center;
 
+}
+
+#input-name {
+  width: 35%;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+#input-lastname {
+  width: 35%;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+#input-email {
+  width: 35%;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+#house {
+  width: 32%;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  background-color : white;
 }
