@@ -1,6 +1,13 @@
 .header {
+    display: flex;
+    background-color: rgb(50, 167, 145);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+}
+
+form{
   display: flex;
-  background-color: rgb(50, 167, 145);
 }
 
 main {
@@ -13,8 +20,16 @@ main {
   margin: auto;
   margin-top: 50px;
   flex-wrap: wrap;
+}
 
-  /* border: solid 1px; */
+.header img {
+  width: 80px;
+}
+
+#trybewarts-header-title{
+  text-align: center;
+    font-size: 40px;
+    color: #fff;
 }
 
 #evaluation-form {
@@ -26,6 +41,27 @@ main {
   text-align: center;
   align-content: center;
 
+}
+
+.trybewarts-login input {
+  font-size: 14px;
+  background-color: #fff;
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 10px;
+  font-weight: bold;
+}
+
+
+.trybewarts-login button{
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(105, 14, 190);
 }
 
 #input-name {
