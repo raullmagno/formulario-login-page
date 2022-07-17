@@ -1,4 +1,4 @@
-const submitButton = document.querySelector('.buttonSubmit')
+const submitButton = document.querySelector('.buttonSubmit');
 
 function analysis(event){
     event.preventDefault();
@@ -13,3 +13,15 @@ function analysis(event){
     }
 }
 submitButton.addEventListener("click", analysis);
+
+const sendButton = document.getElementById('submit-btn');
+const confirma = document.getElementById('agreement');
+
+function analysis2() {
+    if(confirma.checked) {
+        sendButton.disabled =false;
+    } else {
+        sendButton.disabled = true;
+    }
+}
+confirma.addEventListener('click', analysis2);
