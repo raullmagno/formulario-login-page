@@ -12,5 +12,4 @@ function analysis(event){
         alert('Email ou senha inválidos.');
     }
 }
-
 submitButton.addEventListener("click", analysis);
