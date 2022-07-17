@@ -23,15 +23,15 @@ function analysis2() {
 confirma.addEventListener('click', analysis2);
 
 function limiteTextarea(event) {
-    const valor = event.target.value;
-    const quantidade = 500;
-    const total = valor.length;
-    if (total <= quantidade) {
-      const resto = quantidade - total;
-      document.getElementById('counter').innerHTML = resto;
-    } else {
-      document.getElementById('texto').value = valor.substr(0, quantidade);
-    }
+  const valor = event.target.value;
+  const quantidade = 500;
+  const total = valor.length;
+  if (total <= quantidade) {
+    const resto = quantidade - total;
+    document.getElementById('counter').innerHTML = resto;
+  } else {
+    document.getElementById('texto').value = valor.substr(0, quantidade);
   }
-  
-  document.getElementById('textarea').addEventListener('keyup', limiteTextarea);
+}
+
+document.getElementById('textarea').addEventListener('keyup', limiteTextarea);
